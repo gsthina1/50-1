@@ -1,0 +1,27 @@
+*{
+box-sizing: border-box;
+}
+.body {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+height:100vh;
+margin:0;
+}
+.container{
+  display:flex;
+  width:90vw;
+}
+.panel.active{
+height:80%  
+}
+.panel{
+background-size: auto 100%;
+background-position:center;
+background-repeat:no-repeat;
+height:80vh;
+border-radius:50px;
+color:#fff;  
+}
